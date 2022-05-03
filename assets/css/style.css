@@ -1,21 +1,44 @@
 :root {
-    --main-color: #fcfec8;
-    --second-color: #edd8d7;
-    --text-color: #6697f2;
-    --clicked: #45175c;
+    --main-color: #baf5e8;
+    --second-color: #7bdcc7;
+    --text-color: #5a7cc5;
+    --clicked: #5f1225;
 }
 
 body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
+    background-color: var(--main-color);
+    color: var(--text-color);
   }
+
+  .hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/360_F_467930159_UcfrOkjhFG436zoT9fSetYccBgpNkokp.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.hero h2 {
+    align-self: center;
+    margin: 50%;
+}
+
+header h1 {
+    color: #847499;
+    font-size: 34px;
+}
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
+    background-color: var(--second-color);
 }
 
 /* header nav ul {
