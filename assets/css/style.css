@@ -30,17 +30,20 @@ body {
     color: black;
 }
 
-header h1 {
-    color: #847499;
-    font-size: 34px;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1%;
+    padding-left: 0%;
     background-color: var(--second-color);
+}
+
+header h1 {
+    color: var(--text-color);
+    font-size: 34px;
+    background-color: var(--main-color);
+    padding-left: 2%;
 }
 
 header nav ul li{
@@ -56,24 +59,21 @@ main div {
     margin-bottom: 2%;
 }
 
-/* set max width and use media quarys to change it.*/
-
 main div h3 {
-    /* flex: 1 1 25%; */
-    /* display: inline-block; */
     width: 6%;
-    /* margin-left: 8%; */
-    /* margin-right: 4%; */
     text-align: end;
     padding-right: 2%;
 }
 
 main div section {
-    /* flex: 1 1 75% */
-    /* display: inline-block; */
     width: 74%;
     border-left: solid var(--second-color) 3px;
     padding-left: 2%;
+}
+
+#contact-me section ul li{
+    display: inline-block;
+    margin-left: 25px;
 }
 
 img {
