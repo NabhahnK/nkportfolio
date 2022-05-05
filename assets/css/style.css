@@ -52,6 +52,8 @@ main div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 /* set max width and use media quarys to change it.*/
@@ -59,12 +61,19 @@ main div {
 main div h3 {
     /* flex: 1 1 25%; */
     /* display: inline-block; */
+    width: 6%;
+    /* margin-left: 8%; */
+    /* margin-right: 4%; */
+    text-align: end;
+    padding-right: 2%;
 }
 
-main div p {
+main div section {
     /* flex: 1 1 75% */
     /* display: inline-block; */
-    
+    width: 74%;
+    border-left: solid var(--second-color) 3px;
+    padding-left: 2%;
 }
 
 img {
