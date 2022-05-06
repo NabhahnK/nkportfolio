@@ -41,7 +41,7 @@ header {
 
 header h1 {
     color: var(--text-color);
-    font-size: 34px;
+    font-size: 2em;
     background-color: var(--main-color);
     padding-left: 2%;
 }
@@ -49,6 +49,7 @@ header h1 {
 header nav ul li{
     display: inline-block;
     margin-left: 25px;
+    font-size: 1.2em;
 }
 
 main div {
@@ -76,6 +77,14 @@ main div section {
     margin-left: 25px;
 }
 
+#horiseon {
+    width: 80%;
+}
+
 img {
-    max-width: 25%;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
 }
