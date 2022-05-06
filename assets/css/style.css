@@ -83,6 +83,21 @@ main div section {
 
 img {
     width: 40%;
+    border: solid var(--second-color) 0.5em;
+}
+
+main div section a {
+    position: relative;
+    text-align: center;
+}
+
+main div section a p {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    z-index: 50;
+    background-color: var(--second-color);
+    padding-left: 10px;
 }
 
 a {
