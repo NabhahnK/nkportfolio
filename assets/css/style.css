@@ -104,3 +104,38 @@ a {
     text-decoration: none;
     color: var(--text-color);
 }
+
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 25px 0;
+    }
+
+    main div h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+        border-bottom:  solid var(--second-color) 0.2em;
+    }
+
+    main div section {
+        border-left: none;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img, #horiseon {
+        width: 100%;
+    }
+
+    #contact-me section ul li {
+        display: block;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
