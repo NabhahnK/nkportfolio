@@ -22,13 +22,13 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    justify-content: center;
 }
 
 /* Moves the quote on the banner */
 .hero h2 {
     text-align: center;
     align-self: center;
-    margin: 50%;
     color: black;
 }
 
