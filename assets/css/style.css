@@ -72,6 +72,17 @@ main div section {
     padding-left: 2%;
 }
 
+#nabhahn {
+    display: inline-block;
+    width: 8%;
+}
+
+#about-me-text {
+    display: inline-block;
+    width: 70%
+    
+}
+
 #contact-me section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -125,6 +136,14 @@ a {
     main div section {
         border-left: none;
         justify-content: center;
+    }
+
+    #nabhahn {
+        width: 100%;
+    }
+
+    #about-me-text {
+        width: 100%;
     }
 }
 
