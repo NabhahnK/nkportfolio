@@ -84,6 +84,7 @@ main div section {
 #nabhahn {
     display: inline-block;
     width: 15%;
+    height: auto;
 }
 
 
@@ -106,15 +107,17 @@ main div section {
     margin-left: 25px;
 }
 
-/* makes horiseon bigger then the other works */
-#horiseon {
-    width: 80%;
-}
-
 /* sets the size of the other works */
 img {
     width: 40%;
     border: solid var(--second-color) 0.5em;
+    height: 350px;
+}
+
+/* makes horiseon bigger then the other works */
+#horiseon {
+    width: 80%;
+    height: auto;
 }
 
 /* creates the behavior of links in the main section */
@@ -131,6 +134,7 @@ main div section a p {
     z-index: 50;
     background-color: var(--second-color);
     padding-left: 10px;
+    padding-right: 3px;
 }
 
 /* sets color and decoration of links */
