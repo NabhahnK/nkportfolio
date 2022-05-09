@@ -1,18 +1,19 @@
+/* Makes variables for all the colors used */
 :root {
     --main-color: #baf5e8;
     --second-color: #7bdcc7;
     --text-color: #5a7cc5;
-    --clicked: #5f1225;
+    /* --clicked: #5f1225; */
 }
 
+/* Sets the line height and the main colors */
 body {
-    /* display: flex;
-    flex-direction: column; */
     line-height: 1.3;
     background-color: var(--main-color);
     color: var(--text-color);
 }
 
+/* Creates the banner of the page */
 .hero {
     height: 400px;
     width: 100%;
@@ -23,6 +24,7 @@ body {
     display: flex;
 }
 
+/* Moves the quote on the banner */
 .hero h2 {
     text-align: center;
     align-self: center;
@@ -30,6 +32,7 @@ body {
     color: black;
 }
 
+/* Sets the collor and spacing of the header */
 header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,7 @@ header {
     background-color: var(--second-color);
 }
 
+/* Moves the title of the page and sets the color and decoration */
 header h1 {
     color: var(--text-color);
     font-size: 2em;
@@ -46,12 +50,14 @@ header h1 {
     padding-left: 2%;
 }
 
+/* Srts the nav bar up */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
     font-size: 1.2em;
 }
 
+/* Creates the behavior of the main and div elements */
 main div {
     display: flex;
     flex-direction: row;
@@ -60,48 +66,57 @@ main div {
     margin-bottom: 2%;
 }
 
+/* describes the behavior of section titles */
 main div h3 {
     width: 6%;
     text-align: end;
     padding-right: 2%;
 }
 
+/* Describes the behavior of the sections */
 main div section {
     width: 74%;
     border-left: solid var(--second-color) 3px;
     padding-left: 2%;
 }
 
+/* sets the behavior of Nabhahns image */
 #nabhahn {
     display: inline-block;
     width: 8%;
 }
 
+/* sets the behavior of the about me text */
 #about-me-text {
     display: inline-block;
     width: 70%
     
 }
 
+/* Creates the behavior of the contact me section */
 #contact-me section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* makes horiseon bigger then the other works */
 #horiseon {
     width: 80%;
 }
 
+/* sets the size of the other works */
 img {
     width: 40%;
     border: solid var(--second-color) 0.5em;
 }
 
+/* creates the behavior of links in the main section */
 main div section a {
     position: relative;
     text-align: center;
 }
 
+/* describes behavior for anytext in a link */
 main div section a p {
     position: absolute;
     bottom: 8px;
@@ -111,21 +126,26 @@ main div section a p {
     padding-left: 10px;
 }
 
+/* sets color and decoration of links */
 a {
     text-decoration: none;
     color: var(--text-color);
 }
 
+/* changes behavior based on screen size */
 @media screen and (max-width: 992px) {
+    /* sets header on column */
     header {
         flex-direction: column;
     }
 
+    /* Changes nav bar behavior */
     header nav ul li {
         display: block;
         margin: 25px 0;
     }
 
+    /* changes location of site title */
     main div h3 {
         width: 100%;
         text-align: center;
@@ -133,25 +153,31 @@ a {
         border-bottom:  solid var(--second-color) 0.2em;
     }
 
+    /* changes decoration */
     main div section {
         border-left: none;
         justify-content: center;
     }
 
+    /* changes Nabhahn image size  */
     #nabhahn {
         width: 100%;
     }
 
+    /* changes about me width */
     #about-me-text {
         width: 100%;
     }
 }
 
+/* screenb size for small device */
 @media screen and (max-width: 768px) {
+    /* sets work section size */
     img, #horiseon {
         width: 100%;
     }
 
+    /* changes contact me section behavior */
     #contact-me section ul li {
         display: block;
         margin-bottom: 25px;
