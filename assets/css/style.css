@@ -83,14 +83,21 @@ main div section {
 /* sets the behavior of Nabhahns image */
 #nabhahn {
     display: inline-block;
-    width: 8%;
+    width: 15%;
+}
+
+
+/* Sets the behavior for the about me section */
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* sets the behavior of the about me text */
 #about-me-text {
     display: inline-block;
-    width: 70%
-    
+    width: 70%;
+    /* align-items: center; */
 }
 
 /* Creates the behavior of the contact me section */
