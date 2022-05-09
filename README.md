@@ -3,7 +3,7 @@
 ![Portfolio](./assets/images/Capture02.PNG "portfolio")
 
 Its a one page website that has a quick summary of who I am, My current projects, and how to contact me.
-I have also deployed the portfolio as a [GitHub Page](https://nabhahnk.github.io/Horiseon/).
+I have also deployed the portfolio as a [GitHub Page](https://nabhahnk.github.io/nkportfolio/).
 
 - [About me](#about-me)
 - [Work](#work)
