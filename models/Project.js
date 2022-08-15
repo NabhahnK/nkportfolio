@@ -23,10 +23,6 @@ Project.init(
     },
     repo: {
       type: DataTypes.STRING,
-    },
-    img: {
-      type: DataTypes.BLOB('long'),
-      allowNull: true,
     }
   },
   {

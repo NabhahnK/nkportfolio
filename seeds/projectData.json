@@ -1,7 +1,7 @@
 [
   {
     "name": "Horiseon",
-    "img_location": "./public/images/screen-shot.PNG",
+    "img_location": "/screen-shot.png",
     "link": "https://nabhahnk.github.io/Horiseon/",
     "repo": "https://github.com/NabhahnK/Horiseon"
   }

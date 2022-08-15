@@ -11,7 +11,6 @@ const seedDatabase = async () => {
     console.log(project.img_location);
     await Project.create({
       ...project,
-      img: fs.readFileSync(project.img_location),
     });
   }
 

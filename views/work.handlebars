@@ -1,25 +1,14 @@
-<header>
-    <h1>Nabhahn Kamaal</h1>
-    <nav>
-        <ul>
-            <li><a href="./index.html/">About Me</a></li>
-            <li><a href="./work.html">Work</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
-            <li><a
-                    href="https://docs.google.com/document/d/1AGa5nq_qfFvoBJVEd3Pk24spD0Kuvy8YUlTqoCGLIDg/export?format=pdf">Resume</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+{{> nav}}
 
 <div id="work">
-    <h3>Work</h3>
+    <h2>Work</h2>
     <section>
         {{#each projects as |project| }}
-        <a href="https://nabhahnk.github.io/Horiseon/" target="#">
-             <img src={{project.img_location}}/>
-            <p>Horiseon</p>
-        </a>
+            <div id="project-{{id}}">
+            <img src="/images{{img_location}}"/>
+            <a href="{{link}}" target="#">{{name}}</a>
+            <a href="{{repo}}" target="#">Repo</a>
+            </div>
         {{/each}}
         {{!-- <a href="https://nabhahnk.github.io/Horiseon/" target="#">
             <img id="horiseon" src="../public/images/screen-shot.PNG" />
