@@ -15,25 +15,19 @@ Project.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    img_location: {
       type: DataTypes.STRING,
     },
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
+    link: {
+      type: DataTypes.STRING,
     },
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
+    repo: {
+      type: DataTypes.STRING,
     },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'user',
-        key: 'id',
-      },
-    },
+    img: {
+      type: DataTypes.BLOB('long'),
+      allowNull: true,
+    }
   },
   {
     sequelize,
