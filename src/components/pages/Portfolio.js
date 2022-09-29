@@ -1,23 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Project from '../Project'
 
-const projects = [
-  {
-    title: "test",
-    img: "",
-    imgAlt: "test",
-    desc: "test",
-    deployed: "#",
-    repo: "#"
-  }
-]
+
 
 export default function Portfolio() {
+  const [data] = useState([
+    {
+      title: "test",
+      img: "",
+      imgAlt: "test",
+      desc: "test",
+      deployed: "#",
+      repo: "#"
+    }
+  ])
+  
   return (
     <div>
       <h1>Portfolio</h1>
       <section>
-        <Project props={projects}/>
+        {data.map((data) => (
+          <Project data={data} key={data.title}/>
+        ))}
+        
       </section>
     </div>
   );

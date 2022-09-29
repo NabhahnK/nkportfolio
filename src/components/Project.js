@@ -1,35 +1,24 @@
 import React from 'react';
 
 const style = {
-    width: '18rem',
-}
+        width: '18rem',
+    }
 
-export default function Project(props) {
-    // const title = props.title;
-    // const img = props.title;
-    // const imgAlt = props.title;
-    // const desc = props.title;
-    // const deployed = props.title;
-    // const repo = props.title;
-    // console.log(title);
-    // const data = {};
-
-    // const projects = data.map((data) => {
-    //     return(<div key={data.title} className="card" style={style.width}>
-    //         <img className="card-img-top" src={data.img} alt={data.imgAlt}/>
-    //             <div className="card-body">
-    //                 <h5 className="card-title">{data.title}</h5>
-    //                 <p className="card-text">{data.desc}</p>
-    //             </div>
-    //             <div className="card-body">
-    //                 <a href={data.deployed} className="card-link">{data.title}</a>
-    //                 <a href={data.repo} className="card-link">Github</a>
-    //             </div>
-    //     </div>)
-    // })
+export default function Project({ data }) {
+    const { title, img, imgAlt, desc, deployed, repo } = data;
     return (
         <div>
-            {/* {projects} */}
+            <div key={title} className="card" style={style}>
+                <img className="card-img-top" src={img} alt={imgAlt} />
+                <div className="card-body">
+                    <h5 className="card-title">{title}</h5>
+                    <p className="card-text">{desc}</p>
+                </div>
+                <div className="card-body">
+                    <a href={deployed} className="card-link">{title}</a>
+                    <a href={repo} className="card-link">Github</a>
+                </div>
+            </div>
         </div>
     );
 }

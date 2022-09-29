@@ -1,4 +1,5 @@
 import React from "react";
+import nabhahn from "../../images/nabhahnkamaal.jpg";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
         <img
           id="nabhahn"
           alt="nabhahn"
-          src="./images/nabhahnkamaal.jpg"
+          src={nabhahn}
         />
         <p id="about-me-text">
           My name is Nabhahn Kamaal. I was born and rasied in Tucson, Az. I've
