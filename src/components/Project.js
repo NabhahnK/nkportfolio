@@ -7,7 +7,7 @@ const style = {
 export default function Project({ data }) {
     const { title, img, imgAlt, desc, deployed, repo } = data;
     return (
-        <div>
+        <div class="col-4">
             <div key={title} className="card" style={style}>
                 <img className="card-img-top" src={img} alt={imgAlt} />
                 <div className="card-body">
