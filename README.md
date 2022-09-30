@@ -1,22 +1,19 @@
-## Nabhahn Kamaal Portfolio
+# Nabhahn Kamaal Portfolio
 
-![Portfolio](./assets/images/Capture02.PNG "portfolio")
+  ## Description
 
-Its a one page website that has a quick summary of who I am, My current projects, and how to contact me.
-I have also deployed the portfolio as a [GitHub Page](https://nabhahnk.github.io/nkportfolio/).
+  ![portfolio](./images/newportfolio.PNG "Portfolio")
 
-- [About me](#about-me)
-- [Work](#work)
-- [Contact me](#contact-me)
+  My portfolio made in react with bootstrap. It shows my work, as well as how to contact me. Also a short description of me and my experiences.
 
-# About me
+  # Table of Contents
+  1. [Description](#description)
+  2. [Questions](#questions)
 
-A small section that talks about who I am and what I'm currently doing. As well as my goals for the future.
+  ## Questions
 
-# Work 
+  You can contact me with my email.
 
-A section that show all the projects I am currently working on ao worked on.
+  You can send me any additional questions at my email NabhahnK@gmail.com.
 
-# Contact me
-
-A section with all me contact infomation.
+  My [GitHub](https://github.com/NabhahnK)
