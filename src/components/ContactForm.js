@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/f7c11250-4109-11ed-a06d-cdea678ac864"; // TODO - fill on the later step
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/f7c11250-4109-11ed-a06d-cdea678ac864";
 
 const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
@@ -26,17 +26,17 @@ const ContactForm = () => {
             method="POST"
             target="_blank"
         >
-            <div>
-                <input type="text" placeholder="Your name" name="name" required />
+            <div class="form-group">
+                <input type="text" placeholder="Your name" name="name" required  class="form-control"/>
             </div>
-            <div>
-                <input type="email" placeholder="Email" name="email" required />
+            <div class="form-group">
+                <input type="email" placeholder="Email" name="email" required  class="form-control"/>
             </div>
-            <div>
-                <textarea placeholder="Your message" name="message" required />
+            <div class="form-group">
+                <textarea placeholder="Your message" name="message" required  class="form-control" rows="3"/>
             </div>
-            <div>
-                <button type="submit"> Send a message </button>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary"> Send a message </button>
             </div>
         </form>
     );

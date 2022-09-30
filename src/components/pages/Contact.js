@@ -3,8 +3,8 @@ import ContactForm from '../ContactForm';
 
 export default function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
+    <div class="col-md-10 offset-1">
+      <h1 class="text-center">Contact Page</h1>
       <ContactForm />
     </div>
   );
