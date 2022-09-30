@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/nkportfolio/static/css/main.9bd7a35e.css",
-    "main.js": "/nkportfolio/static/js/main.0235f29a.js",
+    "main.css": "/nkportfolio/static/css/main.97173e59.css",
+    "main.js": "/nkportfolio/static/js/main.cef60353.js",
     "static/media/nabhahnkamaal.jpg": "/nkportfolio/static/media/nabhahnkamaal.1918f32caa6a2d450b35.jpg",
+    "static/media/Floof.PNG": "/nkportfolio/static/media/Floof.c3295f0214afb787de85.PNG",
     "static/media/SBlog.PNG": "/nkportfolio/static/media/SBlog.c536606f763e8acfc933.PNG",
     "index.html": "/nkportfolio/index.html",
-    "main.9bd7a35e.css.map": "/nkportfolio/static/css/main.9bd7a35e.css.map",
-    "main.0235f29a.js.map": "/nkportfolio/static/js/main.0235f29a.js.map"
+    "main.97173e59.css.map": "/nkportfolio/static/css/main.97173e59.css.map",
+    "main.cef60353.js.map": "/nkportfolio/static/js/main.cef60353.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd7a35e.css",
-    "static/js/main.0235f29a.js"
+    "static/css/main.97173e59.css",
+    "static/js/main.cef60353.js"
   ]
 }
