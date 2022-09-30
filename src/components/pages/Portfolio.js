@@ -64,7 +64,7 @@ export default function Portfolio() {
   return (
     <div class="container justify-content-center">
       <h1 class="text-center">Portfolio</h1>
-      <section class="container row col-10 justify-content-center offset-1">
+      <section class="container row justify-content-center offset-1">
         {data.map((data) => (
           <Project data={data} key={data.title}/>
         ))}
