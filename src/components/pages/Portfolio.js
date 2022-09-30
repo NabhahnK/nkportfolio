@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Project from '../Project'
-import sBlog from '../../images/SBlog.PNG';
-// import sBlog from '../../images/SBlog.PNG';
+import sBlog from "../../images/SBlog.PNG";
+import Floof from '../../images/Floof.PNG';
 // import sBlog from '../../images/SBlog.PNG';
 // import sBlog from '../../images/SBlog.PNG';
 // import sBlog from '../../images/SBlog.PNG';
@@ -21,7 +21,7 @@ export default function Portfolio() {
     },
     {
       title: "Floof Corner",
-      img: {sBlog},
+      img: {Floof},
       imgAlt: "Floof Corner",
       desc: "A full stack app to find an fox and cat book.",
       deployed: "https://nabhahnk.github.io/the-next-big-thing/",
