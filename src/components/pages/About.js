@@ -3,9 +3,10 @@ import nabhahn from "../../images/nabhahnkamaal.jpg";
 
 export default function About() {
   return (
-    <div>
+    <div class="container justify-content-center">
       <section id="about-me">
         <img
+          class="img-fluid mx-auto d-block col-md-4"
           id="nabhahn"
           alt="nabhahn"
           src={nabhahn}
