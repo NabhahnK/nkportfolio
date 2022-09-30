@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import Project from '../Project'
+import sBlog from '../../images/SBlog.PNG';
 
 
 
 export default function Portfolio() {
   const [data] = useState([
     {
-      title: "test",
-      img: "",
+      title: "Salamander survival guide",
+      img: {sBlog},
       imgAlt: "test",
       desc: "test",
       deployed: "#",
