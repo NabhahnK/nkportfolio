@@ -1,20 +1,19 @@
 {
   "files": {
     "main.css": "/nkportfolio/static/css/main.97173e59.css",
-    "main.js": "/nkportfolio/static/js/main.78399b2b.js",
+    "main.js": "/nkportfolio/static/js/main.3b66c714.js",
     "static/media/nabhahnkamaal.jpg": "/nkportfolio/static/media/nabhahnkamaal.1918f32caa6a2d450b35.jpg",
-    "static/media/Floof.PNG": "/nkportfolio/static/media/Floof.c3295f0214afb787de85.PNG",
-    "static/media/employeetracker.PNG": "/nkportfolio/static/media/employeetracker.c6213ccd343e25c35196.PNG",
-    "static/media/hexregexgist.PNG": "/nkportfolio/static/media/hexregexgist.8e452455f95dd52a7150.PNG",
-    "static/media/readmegen.PNG": "/nkportfolio/static/media/readmegen.aa396fdb6f8e2e2ec16c.PNG",
-    "static/media/mvcblog.PNG": "/nkportfolio/static/media/mvcblog.225d7391d1bda622221f.PNG",
-    "static/media/SBlog.PNG": "/nkportfolio/static/media/SBlog.c536606f763e8acfc933.PNG",
+    "static/media/Floof-Corner.png": "/nkportfolio/static/media/Floof-Corner.c3295f0214afb787de85.png",
+    "static/media/CLI-Employee-Tracker.png": "/nkportfolio/static/media/CLI-Employee-Tracker.c6213ccd343e25c35196.png",
+    "static/media/Hex-Value-Regex.png": "/nkportfolio/static/media/Hex-Value-Regex.8e452455f95dd52a7150.png",
+    "static/media/Readme-Generator.png": "/nkportfolio/static/media/Readme-Generator.aa396fdb6f8e2e2ec16c.png",
+    "static/media/MVC-Style-Blog.png": "/nkportfolio/static/media/MVC-Style-Blog.225d7391d1bda622221f.png",
     "index.html": "/nkportfolio/index.html",
     "main.97173e59.css.map": "/nkportfolio/static/css/main.97173e59.css.map",
-    "main.78399b2b.js.map": "/nkportfolio/static/js/main.78399b2b.js.map"
+    "main.3b66c714.js.map": "/nkportfolio/static/js/main.3b66c714.js.map"
   },
   "entrypoints": [
     "static/css/main.97173e59.css",
-    "static/js/main.78399b2b.js"
+    "static/js/main.3b66c714.js"
   ]
 }
