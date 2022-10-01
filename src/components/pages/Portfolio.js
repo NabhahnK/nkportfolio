@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import Project from '../Project'
 import sBlog from "../../images/SBlog.PNG";
 import Floof from '../../images/Floof.PNG';
-// import sBlog from '../../images/SBlog.PNG';
-// import sBlog from '../../images/SBlog.PNG';
-// import sBlog from '../../images/SBlog.PNG';
-// import sBlog from '../../images/SBlog.PNG';
+import regex from '../../images/hexregexgist.PNG';
+import MVC from '../../images/mvcblog.PNG';
+import CLI from '../../images/employeetracker.PNG';
+import RGen from '../../images/readmegen.PNG';
 
 
 
@@ -30,7 +30,7 @@ export default function Portfolio() {
     },
     {
       title: "Hex Value Regex",
-      img: {sBlog},
+      img: {regex},
       imgAlt: "Hex Value Regex Gist",
       desc: "An explanation of regex using hex values",
       deployed: "https://gist.github.com/NabhahnK/3e67c6e3070bb61964c7e0e3df5761b5",
@@ -38,7 +38,7 @@ export default function Portfolio() {
     },
     {
       title: "MVC-Style Blog",
-      img: {sBlog},
+      img: {MVC},
       imgAlt: "MVC-Style Blog",
       desc: "A full stack blog",
       deployed: "https://mvc-style-blog.herokuapp.com/",
@@ -46,7 +46,7 @@ export default function Portfolio() {
     },
     {
       title: "CLI Employee Tracker",
-      img: {sBlog},
+      img: {CLI},
       imgAlt: "CLI Employee Tracker",
       desc: "A CLI app that helps track employees",
       deployed: "https://github.com/NabhahnK/employee-tracker",
@@ -54,7 +54,7 @@ export default function Portfolio() {
     },
     {
       title: "Readme Generator",
-      img: {sBlog},
+      img: {RGen},
       imgAlt: "Readme Generator",
       desc: "An app to help build a bare bones README",
       deployed: "https://github.com/NabhahnK/readme-gen",
