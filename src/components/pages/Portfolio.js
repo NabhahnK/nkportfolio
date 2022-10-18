@@ -5,13 +5,21 @@ import Floof from '../../images/Floof-Corner.png';
 import regex from '../../images/Hex-Value-Regex.png';
 import MVC from '../../images/MVC-Style-Blog.png';
 import CLI from '../../images/CLI-Employee-Tracker.png';
-import RGen from '../../images/Readme-Generator.png';
+import pmn from '../../images/payme_now';
 
 
 
 
 export default function Portfolio() {
   const [data] = useState([
+    {
+      title: "Payme-Now",
+      img: pmn,
+      // imgAlt: "Readme Generator",
+      desc: "A full-stack group project to give business owners a way to quickly get pay stubs",
+      deployed: "https://payme-now.herokuapp.com/",
+      repo: "https://github.com/SonnyAddison/payme_now"
+    },
     {
       title: "Salamander-Survival-Guide",
       img: sBlog,
@@ -51,14 +59,6 @@ export default function Portfolio() {
       desc: "A CLI app that helps track employees",
       deployed: "https://github.com/NabhahnK/employee-tracker",
       repo: "https://github.com/NabhahnK/employee-tracker"
-    },
-    {
-      title: "Readme-Generator",
-      img: RGen,
-      // imgAlt: "Readme Generator",
-      desc: "An app to help build a bare bones README",
-      deployed: "https://github.com/NabhahnK/readme-gen",
-      repo: "https://github.com/NabhahnK/readme-gen"
     },
   ])
   
