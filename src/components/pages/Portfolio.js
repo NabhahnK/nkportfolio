@@ -5,7 +5,7 @@ import Floof from '../../images/Floof-Corner.png';
 import regex from '../../images/Hex-Value-Regex.png';
 import MVC from '../../images/MVC-Style-Blog.png';
 import CLI from '../../images/CLI-Employee-Tracker.png';
-import pmn from '../../images/payme_now';
+import pmn from '../../images/paymenow.png';
 
 
 
