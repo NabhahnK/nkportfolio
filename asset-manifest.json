@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/nkportfolio/static/css/main.97173e59.css",
-    "main.js": "/nkportfolio/static/js/main.3b66c714.js",
+    "main.js": "/nkportfolio/static/js/main.b28c550f.js",
+    "static/media/paymenow.png": "/nkportfolio/static/media/paymenow.2c8dd63f8ee027dc264e.png",
     "static/media/nabhahnkamaal.jpg": "/nkportfolio/static/media/nabhahnkamaal.1918f32caa6a2d450b35.jpg",
     "static/media/Floof-Corner.png": "/nkportfolio/static/media/Floof-Corner.c3295f0214afb787de85.png",
     "static/media/CLI-Employee-Tracker.png": "/nkportfolio/static/media/CLI-Employee-Tracker.c6213ccd343e25c35196.png",
     "static/media/Hex-Value-Regex.png": "/nkportfolio/static/media/Hex-Value-Regex.8e452455f95dd52a7150.png",
-    "static/media/Readme-Generator.png": "/nkportfolio/static/media/Readme-Generator.aa396fdb6f8e2e2ec16c.png",
     "static/media/MVC-Style-Blog.png": "/nkportfolio/static/media/MVC-Style-Blog.225d7391d1bda622221f.png",
     "index.html": "/nkportfolio/index.html",
     "main.97173e59.css.map": "/nkportfolio/static/css/main.97173e59.css.map",
-    "main.3b66c714.js.map": "/nkportfolio/static/js/main.3b66c714.js.map"
+    "main.b28c550f.js.map": "/nkportfolio/static/js/main.b28c550f.js.map"
   },
   "entrypoints": [
     "static/css/main.97173e59.css",
-    "static/js/main.3b66c714.js"
+    "static/js/main.b28c550f.js"
   ]
 }
